@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 1s ease-in-out;
+}
+.right-shape{
+    position: absolute;
+    background-color: #EDE5F3;
+    height: 80vh;
+    width: 30vw;
+    left: 80vw;
+    z-index: -1;
+    top: 30vh;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+
+}
+.shape{
+    position: absolute;
+    height: 80vh;
+    width: 30vw;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background: linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
+    position: absolute;
+    z-index: -1;
+    
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+.mobile-div{
+   
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: column;
+    text-align: left;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    width: 70vw;
+   
+   
+    
+}
+.centerdiv{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p{
+
+    line-height: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: small;
+    color: hsl(270, 7%, 64%);
+    }
+
+ .content h1{
+    margin-left: 30px;
+ }  
+
+.mobile{
+    height: 89%;
+    width: 50%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    border: 10px solid white;
+    background-color:  hsl(270, 20%, 96%);
+    box-sizing: content-box;
+    margin-top: 15vh;
+}
+
+.notch{
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    margin-left: 70px;
+    border-radius: 50px;
+    margin-top: -5px;
+}
+.mobile-head-div{
+ 
+    background: linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);;
+
+    height: 13%;
+     display: grid;
+     grid-template-columns: 2fr 2fr 5fr 4fr;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-head-div div{
+    margin-left: 5px;
+}
+.avatar{
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.mobile-head-div p:nth-of-type(1){
+    font-size: 10px;
+    color: white;
+}
+
+.mobile-head-div p:nth-of-type(2){
+    font-size: 8px;
+    color: hsl(276, 100%, 81%);
+}
+
+
+.doticon{
+   justify-self: right;
+   
+    margin-right: 10px;
+}
+
+i{
+    color: white;
+}
+
+.mobile-body{
+    display: grid;
+ 
+    row-gap: 10px;
+}
+
+.first-chat{
+    background-color: #EDE5F3;
+    color: hsl(276, 55%, 52%);
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+.second-chat{
+    background-color: #EDE5F3;
+    color: hsl(276, 55%, 52%);
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.images{
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: right;
+    width: 50%;
+
+}
+.images img{
+width: 30px;
+margin: 1px;
+border-radius: 10px;
+}
+.third-chat{
+    background-color: brown;
+    height: 30px;
+    background-color: white;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: right;
+border-radius: 10px;
+color: hsl(271, 15%, 43%);
+margin-right: 10px;
+
+}
+.fourth-chat{
+    background-color: white;
+    height: 20px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: right;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.fifth-chat{
+    background-color: #EDE5F3;
+    color: hsl(276, 55%, 52%);
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.thirtyminwalk{
+    background: linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);;
+height: 40px;
+width: 70%;
+border-bottom-left-radius: 2px;
+border-top-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-top-right-radius: 8px;
+margin-left: 8px;
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.onehrwalk{
+    background: linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);;
+    height: 40px;
+
+    
+    width: 70%;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: 8px;
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+}
+.mobile-body p{
+    font-size: 8px;
+    margin-left: 2px;
+}
+h6{
+    color: white;
+
+    margin-left: 25px;
+}
+
+.mobile-foot-div{
+    
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-foot-div input{
+    border-radius: 30px;
+    border: none;
+    height: 25px;
+    width: 15vw;
+}
+.mobile-foot-div input:focus {
+    outline: none;
+}
+.right{
+    position: absolute;
+    border-radius: 10%;
+    color: black;
+    margin-left: -20px;
+    margin-top: 4.5px;
+}
+@media only screen and (max-width: 768px) {
+   
+.shape{
+    width: 100vw;
+    transform: translateX(-50%);
+}
+.container{
+    flex-direction: column;
+    width: 100vw;
+    height: 95%;
+}
+.mobile-div{
+    width: 100vw;
+}
+.centerdiv{
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+width: 100vw;
+text-align: center;
+
+}
+
+.content p{
+
+    line-height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+    }
+   .mobile{
+    height: 53vh;
+   } .images img{
+    width: 32px;
+    margin: 1px;
+    border-radius: 10px;
+    }
+    .mobile-foot-div input{
+        border-radius: 30px;
+        border: none;
+        height: 25px;
+        width: 47vw;
+    }
+
+
+    .notch{
+        position: absolute;
+        background-color: white;
+        height: 20px;
+        width: 100px;
+        margin-left: 55px;
+        border-radius: 50px;
+        margin-top: -5px;
+    } 
+    .right-shape{
+        display: none;
+    }
+}
+
